@@ -1,0 +1,64 @@
+body {background-color: #f5f6f7;}
+main {
+    width: 920px; margin: 0 auto;
+}
+main #lang {float: right;}
+main #lang option {}
+main h1 {
+    clear: both;
+    text-align: center;
+    padding-bottom: 20px;
+}
+main h1 a {}
+main h1 a img {}
+main #loginFrm {}
+main #loginFrm fieldset {
+    display: flex;
+    flex-flow: column nowrap;
+align-items: center;}
+main #loginFrm fieldset legend {}
+main #loginFrm fieldset ul {}
+main #loginFrm fieldset ul li {
+    border: 1px solid #c1c1c1;
+    background-color: white;
+    width: 458px; height: 58px;
+    padding: 17px 0;
+    margin: 10px 0;
+}
+main #loginFrm fieldset ul li input {
+    border: none;
+    background-color: none;
+}
+main #loginFrm fieldset .login {}
+main #loginFrm fieldset .login button {
+    border: 1px solid #19ce60;
+    background-color: #19ce60;
+    width: 458px; height: 58px;
+}
+main #loginFrm fieldset .login_y {
+    clear: both;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-around;
+}
+main #loginFrm fieldset .login_y .check {}
+main #loginFrm fieldset .login_y .check #login_y {}
+main #loginFrm fieldset .login_y .check span {}
+main #loginFrm fieldset .login_y .check2 a {}
+main #loginFrm fieldset .login_y .check2 a span {}
+main #loginFrm fieldset .find {
+    clear: both;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-around;
+}
+main #loginFrm fieldset .find a {padding-left: 3px;}
+main #loginFrm fieldset .find a p {}
+main footer {}
+main footer .f_top {
+    display: flex;
+    flex-flow: row nowrap;
+}
+main footer .f_top a {}
+main footer .f_top a p {}
+main footer p {}
