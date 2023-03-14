@@ -6,3 +6,4 @@
 연한녹색 #19ce60
 width 500px (join1 & join2)
 -> join (min) overflow-y:auto;
+-> login (eun) hard
