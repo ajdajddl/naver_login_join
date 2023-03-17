@@ -11,12 +11,65 @@
     <link href="./styles/index.css" rel="stylesheet" type="text/css">
 </head>
 <body>
-    <div id="login">
-        <form action="#" method="post" >
+    <header>
+    <H1><img src="./images/logo.jpg" alt=""></H1>
+    </header>
+    <main>
+        <form>
             <fieldset>
-                <legend class="skip"></legend>
+                <legend class="skip">회원가입양식</legend>
+                <h2>아이디</h2>
+                <input type="text" name="id"><br>
+                <h2>비밀번호</h2>
+                <input type="text" name="pw"><br>
+                <h2>비밀번호재확인</h2>
+                <input type="text" name="pw_again"><br>
+                <h2>이름</h2>
+                <input type="text" name="user_name">
+                <h2>생년월일</h2>
+                <input type="text" name="year">
+                <select name="month" id="month">
+                    <option value="month">월</option>
+                    <option value="jan">1</option>
+                    <option value="feb">2</option>
+                    <option value="mar">3</option>
+                    <option value="apr">4</option>
+                    <option value="may">5</option>
+                    <option value="jun">6</option>
+                    <option value="jul">7</option>
+                    <option value="aug">8</option>
+                    <option value="sept">9</option>
+                    <option value="oct">10</option>
+                    <option value="nov">11</option>
+                    <option value="dec">12</option>
+                </select>
+                <input type="text" name="day">
+                <br>
+                <h2>성별</h2>
+                <select name="gender" id="gender">
+                    <option selected value="option">성별</option>
+                    <option value="male">남</option>
+                    <option value="female">여</option>
+                </select><br>
+                <h2>본인확인 이메일(선택)</h2>
+                <input type="text" name="email"><br>
+                <h2>휴대전화</h2>
+                <select name="" id="">
+                    <option selected value="kr">대한민국+82</option>
+                    <option value="hk">홍콩+852</option>
+                </select><br>
+                <input type="text" name="phone_num"><button type="button">인증번호 받기</button><br>
+                <input type="text" name="number"><br>
+                <a href="#">가입하기</a>
             </fieldset>
         </form>
-    </div>
+    </main>
+    <footer>
+        <a href="#">이용약관</a>
+        <a href="#">개인정보처리방침</a>
+        <a href="#">책임의 한계와 법적고지</a>
+        <a href="#">회원정보 고객센터</a>
+        <p>NAVER Copyright © NAVER Corp. All Rights Reserved.</p>
+    </footer>
 </body>
 </html>
