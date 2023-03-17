@@ -1,0 +1,35 @@
+body {
+    background: #f5f6f7; 
+}
+header {
+    text-align:center;
+    width: 920px;
+    margin:0 auto;}
+header h1 {}
+header h1 img {}
+/* ------main----- */
+main {
+    padding:50px 0;
+    display:flex;
+    flex-flow:row wrap;
+    justify-content: center;    
+    width: 920px;
+    margin:0 auto;
+}
+main form {}
+main form fieldset {}
+main form fieldset h2 {padding:10px 0;}
+main form fieldset input {padding:5px; width:455px;}
+main form fieldset input:first-child {}
+main form fieldset select {}
+main form fieldset select option {}
+main form fieldset a {padding-top:10px;}
+footer {
+    display:flex;
+    flex-flow:row wrap;
+    justify-content: center;    
+    width: 920px;
+    margin:0 auto;
+}
+footer a {}
+footer p {}
