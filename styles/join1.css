@@ -5,19 +5,19 @@ header {
     width:750px; margin:0 auto;
     position: relative;
 }
-header #lang {
+header select {
     position:absolute;
     top:0; right:0;
     padding:3px 10px;
     border:1px solid #c1c1c1;
 }
-header #lang option {}
+header select option {}
 /* main----------------------------- */
 main {
     width:500px; margin:0 auto;
 }
 /* 로고 이미지----------------------- */
-main a {display: inline-block; padding:80px 25% 30px;}
+main > a {display: inline-block; padding:80px 25% 30px;}
 main a img {}
 /* 로고 하단 모두 동의--------------- */
 main .check {
@@ -27,8 +27,7 @@ main .check {
 }
 main .check p {}
 main .check p #check1 {}
-main .check label {}
-main .check label p {
+main .check label em {
     margin-left:5px;
     line-height:1.2;
     font-weight:500;
@@ -140,15 +139,62 @@ main .check_03 .box3 p {}
 main .check_03 .box3 p:nth-child(2),
 main .check_03 .box3 p:nth-child(3) {margin-bottom:50px;}
 /* 취소, 확인 버튼 ---------------- */
-main .button_g {background-color: #08a600;}
-main .button_g .button {}
-main .button_g .button button {background-color: aqua; display: inline-block;}
-main .button_g .button a {}
-main .button_g .button a button {}
-main .button_g p {}
-main .button_g p em {}
+main .button {
+    display:flex;
+    flex-flow:row nowrap;
+    justify-content: space-between;
+}
+main .button {}
+main .button a,
+main .button button {
+    width:240px; height:60px;
+    color:#fff;
+    margin-bottom:15px;
+}
+main .button .canclebtn {background-color: #08a600;}
+main .button a {
+    background-color: #8e8e8e;
+    text-align: center; line-height: 60px;
+}
+main .btn_btm {
+    display:flex;
+    flex-flow:row nowrap;
+    justify-content: center;
+    margin-bottom:100px;
+}
+main .btn_btm p,
+main .btn_btm p a {
+    line-height:1.2;
+    font-size:0.8rem;
+    font-weight:400;
+}
+main .btn_btm p a {
+    margin-left:5px;
+    border-bottom:1px solid #000;
+}
 /* footer */
-footer {}
+footer {
+    width:500px; margin:0 auto; text-align: center;
+}
 footer .f_top {}
-footer .f_top a {}
-footer p {}
+footer .f_top a {
+    line-height:1.2;
+    font-size:0.8rem;
+    font-weight:400;
+}
+footer .f_top a::after {
+    width:1px; height:10px; background-color:#8e8e8e;
+    content:''; display: inline-block;
+    position:relative;
+    right:-7px; top:0;
+    margin-right:10px;
+}
+footer .f_top a:last-child:after {
+    display:none;
+}
+footer p {
+    margin:10px 0;
+    line-height:1.2;
+    font-size:0.8rem;
+    font-weight:400;
+}
